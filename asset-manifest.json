@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/routing-app/static/css/main.6ec3f555.css",
-    "main.js": "/routing-app/static/js/main.683d6e25.js",
+    "main.css": "/routing-app/static/css/main.39141dcf.css",
+    "main.js": "/routing-app/static/js/main.340b9799.js",
     "index.html": "/routing-app/index.html",
-    "main.6ec3f555.css.map": "/routing-app/static/css/main.6ec3f555.css.map",
-    "main.683d6e25.js.map": "/routing-app/static/js/main.683d6e25.js.map"
+    "main.39141dcf.css.map": "/routing-app/static/css/main.39141dcf.css.map",
+    "main.340b9799.js.map": "/routing-app/static/js/main.340b9799.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec3f555.css",
-    "static/js/main.683d6e25.js"
+    "static/css/main.39141dcf.css",
+    "static/js/main.340b9799.js"
   ]
 }
