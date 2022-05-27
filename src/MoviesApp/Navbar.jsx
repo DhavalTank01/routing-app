@@ -6,7 +6,7 @@ const Navbar = ({ count }) => {
     <div className="">
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/routing-app/">
+          <NavLink className="navbar-brand" to="/routing-app">
             Movies App
           </NavLink>
           <button
@@ -23,7 +23,7 @@ const Navbar = ({ count }) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link " to="/routing-app/">
+                <NavLink className="nav-link " to="/routing-app">
                   Home
                 </NavLink>
               </li>

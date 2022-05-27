@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { getMovie } from "../services/fakeMovieService";
 
@@ -8,7 +8,7 @@ const MovieDetails = () => {
   const navigate = useNavigate();
   const handelSave = useCallback(() => {
     navigate(-1);
-  }, []);
+  }, [navigate]);
   return (
     <div className="container">
       <div className="h5 text-capitalize ">movie details</div>

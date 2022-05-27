@@ -14,13 +14,13 @@ const App = () => {
       <div className="m-3">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/routing-app" element={<Home />} />
           <Route index element={<Home />} />
           <Route path="*" element={<ErrorPage />} />
-          <Route path="/customers" element={<Customers />} />
-          <Route path="/rentals" element={<Rentels />} />
-          <Route path="/movies" element={<Home />}></Route>
-          <Route path="/movies/:id" element={<MovieDetails />} />
+          <Route path="/routing-app/customers" element={<Customers />} />
+          <Route path="/routing-app/rentals" element={<Rentels />} />
+          <Route path="/routing-app/movies" element={<Home />}></Route>
+          <Route path="/routing-app/movies/:id" element={<MovieDetails />} />
         </Routes>
         <Footer />
       </div>

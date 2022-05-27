@@ -7,7 +7,10 @@ const Movie = ({ item, OnLike, id, OnDelete }) => {
   return (
     <tr>
       <td>
-        <Link className="text-dark text-decoration-none movie-title" to={`${_id}`}>
+        <Link
+          className="text-dark text-decoration-none movie-title"
+          to={`/routing-app/movies/${_id}`}
+        >
           {title}
         </Link>
       </td>
